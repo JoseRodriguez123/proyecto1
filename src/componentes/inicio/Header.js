@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 import Home from '../../pages/Home';
+import Promociones from '../../pages/Promociones';
 import Terminales from '../../pages/Terminales';
-import TerminalesA from '../../Formularios/TerminalesA';
+import Conocenos from '../../pages/Conocenos';
+import Ayuda from '../../componentes/ayuda';
 
 class Header extends Component {
 
   render() {
     return (
-
       <Router>
           <nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <a class="navbar-brand" href="#">Travell Center</a>
@@ -17,18 +18,21 @@ class Header extends Component {
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Promociones<span class="sr-only">(current)</span></a>
+
+      <li class="nav-item">
+        <Link class="nav-link" to="/Promociones">Promociones></Link>
       </li>
+
       <li class="nav-item">
         <Link class="nav-link" to="/Terminales">Terminales</Link>
-      
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="#">Conocenos</a>
+        <Link class="nav-link" to="/Conocenos">Conocenos</Link>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ayuda</a>
+        <Link class="nav-link" to="/Ayuda">Ayuda</Link>
       </li>
     </ul>
   </div>
@@ -37,8 +41,11 @@ class Header extends Component {
         <div>
             <Switch>
                 <Route path="/" exact component={Home}/>
+                <Route path="/Promociones" exact component={Promociones}/>
                 <Route path="/Terminales" exact component={Terminales}/>
-                <Route path="/formulario" exact component={TerminalesA}/>
+                <Route path="/Conocenos" exact component={Conocenos}/>
+                <Route path="/Ayuda" exact component={Ayuda}/>
+              
             </Switch>
         </div>
 

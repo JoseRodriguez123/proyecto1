@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Terminales extends Component {
+class Conocenos extends Component {
   render(){
     return(
    
             <div>
-                Esta es la pagina de las Terminales
+                Esta es la pagina para conocernos
             </div>
   
         );
     }
 }
-export default Terminales;
+export default Conocenos;
