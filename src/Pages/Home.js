@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import Carrusel from '../componentes/Carrusel';
 
 class Home extends Component {
   render(){
     return(
    
-            <div>
-                Esta es la pagina de inicio
-            </div>
-  
+<div>
+    <Carrusel/>
+</div>
         );
     }
 }
