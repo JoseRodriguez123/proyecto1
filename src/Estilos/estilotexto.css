@@ -1,0 +1,30 @@
+.formt{
+    margin: auto;
+    max-width: 100%;
+    width: 1200px;
+    height: auto;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    line-height: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+b {
+    text-align: justify;
+    line-height: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+img {
+    max-width: 100%;
+
+}
