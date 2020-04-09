@@ -4,7 +4,7 @@ import '../Estilos/estilotexto.css';
 class Card2 extends Component {
   render(){
     return(
-      <form onSubmit={this.handleSubmit} className = "formt">
+      <form onSubmit={this.handleSubmit} className = "formp">
         <div class="card">
           <div class="card-body">
             <blockquote class="blockquote mb-0">
