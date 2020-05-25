@@ -5,7 +5,7 @@ class Ayuda extends Component {
     return(
    
             <div>
-                Esta es la pagina para ayuda
+              
             </div>
   
         );
