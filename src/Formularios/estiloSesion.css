@@ -1,0 +1,34 @@
+.formp{
+    width: 500px;
+    padding: 10px;
+    border-radius:10px;
+    margin: auto;
+    background-color:#ccc;
+}
+
+.formp input[type="email"]{
+    width: 230px;
+    padding: 10px 10px;
+    border: 2px solid #f6f6f6f6;
+    background-color: #f6f6f6f6;
+    border-radius: 3px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.formp label{
+    width: 150px;
+    display: inline-block;
+    font-weight: bold;
+
+}
+.formp input[type="password"]{
+    width: 230px;
+    padding: 10px 10px;
+    border: 2px solid #f6f6f6f6;
+    background-color: #f6f6f6f6;
+    border-radius: 3px;
+    margin: 10px 0;
+    display: inline-block;
+
+}

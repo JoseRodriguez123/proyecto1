@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-import Home from '../../pages/Home';
-import Promociones from '../../pages/Promociones';
-import Terminales from '../../pages/Terminales';
-import Conocenos from '../../pages/Conocenos';
-import Ayuda from '../../pages/Ayuda';
-import Boletoviaje from '../../pages/Ayuda/Boletoviaje';
-import Atencionclientes from '../../pages/Ayuda/Atencionclientes';
-import Acercade from "../../pages/Acercade";
-import Metodopago from '../../pages/Ayuda/Metodopago';
-import Sesion from '../../pages/Sesion';
-import Registrarse from '../../pages/Registrarse';
+import Home from '../../Pages/Home';
+import Promociones from '../../Pages/Promociones';
+import Terminales from '../../Pages/Terminales';
+import Conocenos from '../../Pages/Conocenos';
+import Ayuda from '../../Pages/Ayuda';
+import Boletoviaje from '../../Pages/Ayuda/Boletoviaje';
+import Atencionclientes from '../../Pages/Ayuda/Atencionclientes';
+import Acercade from "../../Pages/Acercade";
+import Metodopago from '../../Pages/Ayuda/Metodopago';
+import Sesion from '../../Pages/Sesion';
+import Registrarse from '../../Pages/Registrarse';
 
 
 class Header extends Component {
