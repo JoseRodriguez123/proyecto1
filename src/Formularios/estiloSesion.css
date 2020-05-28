@@ -1,4 +1,4 @@
-.formp{
+.formq{
     width: 500px;
     padding: 10px;
     border-radius:10px;
@@ -6,7 +6,7 @@
     background-color:#ccc;
 }
 
-.formp input[type="email"]{
+.formq input[type="email"]{
     width: 230px;
     padding: 10px 10px;
     border: 2px solid #f6f6f6f6;
@@ -16,13 +16,13 @@
     display: inline-block;
 }
 
-.formp label{
+.formq label{
     width: 150px;
     display: inline-block;
     font-weight: bold;
 
 }
-.formp input[type="password"]{
+.formq input[type="password"]{
     width: 230px;
     padding: 10px 10px;
     border: 2px solid #f6f6f6f6;

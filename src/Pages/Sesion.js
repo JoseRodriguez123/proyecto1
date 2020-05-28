@@ -9,9 +9,9 @@ class Sesion extends Component {
     return (
 
       <div>
-        <form onSubmit={this.handleSubmit} className="formp">
-          <form onSubmit={this.handleSubmit} className="formp input">
-            <form onSubmit={this.handleSubmit} className="formp label">
+        <form onSubmit={this.handleSubmit} className="formq">
+          <form onSubmit={this.handleSubmit} className="formq input">
+            <form onSubmit={this.handleSubmit} className="formq label">
               <div className="card mt-4">
                 <div className="card-header">
                   Inicio de Sesion
