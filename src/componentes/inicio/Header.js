@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-import Home from '../../Pages/Home';
-import Promociones from '../../Pages/Promociones';
-import Terminales from '../../Pages/Terminales';
-import Conocenos from '../../Pages/Conocenos';
-import Ayuda from '../../Pages/Ayuda';
-import Boletoviaje from '../../Pages/Ayuda/Boletoviaje';
-import Atencionclientes from '../../Pages/Ayuda/Atencionclientes';
-import Acercade from '../../Pages/Acercade';
-import Metodopago from '../../Pages/Ayuda/Metodopago';
-import Sesion from '../../Pages/Sesion';
-import Registrarse from '../../Pages/Registrarse';
+import Home from '../../pages/Home';
+import Promociones from '../../pages/Promociones';
+import Terminales from '../../pages/Terminales';
+import Conocenos from '../../pages/Conocenos';
+import Ayuda from '../../pages/Ayuda';
+import Boletoviaje from '../../pages/Ayuda/Boletoviaje';
+import Atencionclientes from '../../pages/Ayuda/Atencionclientes';
+import Acercade from "../../pages/Acercade";
+import Metodopago from '../../pages/Ayuda/Metodopago';
+import Sesion from '../../pages/Sesion';
+import Registrarse from '../../pages/Registrarse';
 
 
 class Header extends Component {
@@ -19,7 +19,7 @@ class Header extends Component {
       <Router>
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
 
-          <Link class="nav-link active text-dark font-weight-normal" to="/Travel Center">Travel Center<span class="sr-only">(current)</span></Link>
+          <Link class="nav-link active text-dark font-weight-normal" to="/">Travel Center<span class="sr-only">(current)</span></Link>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -61,7 +61,7 @@ class Header extends Component {
         <hr></hr>
         <div>
           <Switch>
-            <Route path="/Travel Center" exact component={Home} />
+            <Route path="/" exact component={Home} />
             <Route path="/Promociones" exact component={Promociones} />
             <Route path="/Terminales" exact component={Terminales} />
             <Route path="/Conocenos" exact component={Conocenos} />
