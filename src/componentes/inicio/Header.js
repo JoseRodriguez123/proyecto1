@@ -39,7 +39,7 @@ class Header extends Component {
                   Ayuda
         </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link class="dropdown-item" to="/Boleto de viaje">Boleto de viaje</Link>
+                  <Link class="dropdown-item" to="/Boleto de viaje">Tu boleto</Link>
                   <div class="dropdown-divider"></div>
                   <Link class="dropdown-item" to="/Atención a clientes">Atención a clientes</Link>
                   <div class="dropdown-divider"></div>

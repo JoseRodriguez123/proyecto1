@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Cardpago from '../../componentes/Cardpago';
 
 class Metodopago extends Component {
   render(){
     return(
             <div>
-                Esta es la pagina de los metodos de pago
+                <Cardpago/>
             </div>
         );
     }
